@@ -9,7 +9,7 @@ Lang list:
 - [X] Python
 - [X] JavaScript
 - [X] C
-- [ ] Java
+- [X] Java
 - [ ] R
 - [ ] Go
 - [ ] Perl

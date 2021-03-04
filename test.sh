@@ -39,5 +39,16 @@ else
   echo "FAILED"
 fi
 
+# Java
+echo -n -e "\tJava...\t\t"
+javac rand.java
+java=$(java rand $m $a $c $seed)
+rm rand.class
+
+if [ $java -eq $result ]; then
+  echo "PASSED"
+else
+  echo "FAILED"
+fi
 
 echo ""
