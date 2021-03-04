@@ -1,14 +1,14 @@
-# Rand Lang
+# randlang
 
 Pseudo-random number generator from scratch in every programming language.
 
-To generate random numbers from linux's ```/dev/random```
-Use ```od -vAn -N1 -tu1 /dev/random```
+To generate random numbers from linux's `/dev/random`
+Use `od -vAn -N1 -tu1 /dev/random`
 
 Lang list:
 - [X] Python
 - [X] JavaScript
-- [ ] C
+- [X] C
 - [ ] Java
 - [ ] R
 - [ ] Go
@@ -68,4 +68,5 @@ Lang list:
 - [ ] ATS
 - [ ] Brainfuck
 - [ ] TCL
+
 source: https://www.analyticsinsight.net/top-50-programming-languages-learn-coding/

@@ -28,5 +28,16 @@ else
 fi
 
 # C
+echo -n -e "\tC...\t\t"
+gcc -o ccode rand.c
+c=$(./ccode $m $a $c $seed)
+rm ccode
+
+if [ $c -eq $result ]; then
+  echo "PASSED"
+else
+  echo "FAILED"
+fi
+
 
 echo ""
