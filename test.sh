@@ -51,4 +51,15 @@ else
   echo "FAILED"
 fi
 
+# R
+echo -n -e "\tR...\t\t"
+r=$(./rand.R $m $a $c $seed)
+
+if [ $r -eq $result ]; then
+  echo "PASSED"
+else
+  echo "FAILED"
+fi
+
+
 echo ""
