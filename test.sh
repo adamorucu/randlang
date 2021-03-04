@@ -61,5 +61,14 @@ else
   echo "FAILED"
 fi
 
+# Scala
+echo -n -e "\tScala...\t"
+scala=$(./rand.scala $m $a $c $seed)
+
+if [ $scala -eq $result ]; then
+  echo "PASSED"
+else
+  echo "FAILED"
+fi
 
 echo ""

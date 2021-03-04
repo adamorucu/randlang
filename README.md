@@ -10,12 +10,12 @@ Lang list:
 - [X] JavaScript
 - [X] C
 - [X] Java
-- [ ] R
+- [X] R
+- [X] Scala
 - [ ] Go
 - [ ] Perl
 - [ ] Ruby
 - [ ] Swift
-- [ ] Scala
 - [ ] PHP
 - [ ] C++
 - [ ] Objective-C
@@ -34,6 +34,7 @@ Lang list:
 - [ ] TypeScript
 - [ ] CoffeeScript
 - [ ] Kotlin
+- [ ] HTML
 - [ ] CSS
 - [ ] Groovy
 - [ ] Dart
