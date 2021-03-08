@@ -6,12 +6,13 @@ To generate random numbers from linux's `/dev/random`
 Use `od -vAn -N1 -tu1 /dev/random`
 
 Lang list:
-- [X] Python
-- [X] JavaScript
 - [X] C
 - [X] Java
+- [X] JavaScript
+- [X] Python
 - [X] R
 - [X] Scala
+- [X] Octave
 - [ ] Go
 - [ ] Perl
 - [ ] Ruby
@@ -29,7 +30,6 @@ Lang list:
 - [ ] Coq
 - [ ] Lua
 - [ ] Arduino
-- [ ] Matlab
 - [ ] Rust
 - [ ] TypeScript
 - [ ] CoffeeScript

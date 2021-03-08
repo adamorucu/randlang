@@ -71,4 +71,14 @@ else
   echo "FAILED"
 fi
 
+# Octave
+echo -n -e "\tOctave...\t"
+octave=$( octave --silent --eval "rand($m, $a, $c, $seed)" | awk '{print $3}' )
+
+if [ $octave -eq $result ]; then
+  echo "PASSED"
+else
+  echo "FAILED"
+fi
+
 echo ""
