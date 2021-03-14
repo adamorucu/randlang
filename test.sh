@@ -81,4 +81,13 @@ else
   echo "FAILED"
 fi
 
+echo -n -e "\tPerl...\t"
+perl=$(./rand.pl $m $a $c $seed)
+
+if [ $perl -eq $result ]; then
+  echo "PASSED"
+else
+  echo "FAILED"
+fi
+
 echo ""
