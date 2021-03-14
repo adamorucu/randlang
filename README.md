@@ -13,8 +13,8 @@ Lang list:
 - [X] R
 - [X] Scala
 - [X] Octave
+- [X] Perl
 - [ ] Go
-- [ ] Perl
 - [ ] Ruby
 - [ ] Swift
 - [ ] PHP
