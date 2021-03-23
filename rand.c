@@ -1,12 +1,14 @@
 #include <stdio.h>
+#include <stdlib.h>
 
-int random(int m, int a, int c, int x){
+int randomNumber(int m, int a, int c, int x){
   return (a * x + c) % m;
 }
 
 int main(int argc, char *argv[]){
   if(argc == 5){
-    printf("%d", random(*argv[1], *argv[2], *argv[3], *argv[4])); 
+    int rand = randomNumber(atoi(argv[1]), atoi(argv[2]), atoi(argv[3]), atoi(argv[4]));
+    printf("%d", rand); 
   } else {
     printf("Error: Not matching argument count.");
   }
