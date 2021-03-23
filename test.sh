@@ -1,9 +1,9 @@
 #!/usr/bin/bash
-m=2
-a=2
-c=3
-seed=4
-result=1
+m=5
+a=3
+c=6
+seed=2
+result=2
 
 echo -e "\nTesting..."
 
@@ -30,10 +30,10 @@ fi
 # C
 echo -n -e "\tC...\t\t"
 gcc -o ccode rand.c
-c=$(./ccode $m $a $c $seed)
+cc=$(./ccode $m $a $c $seed)
 rm ccode
 
-if [ $c -eq $result ]; then
+if [ $cc -eq $result ]; then
   echo "PASSED"
 else
   echo "FAILED"
@@ -81,10 +81,23 @@ else
   echo "FAILED"
 fi
 
-echo -n -e "\tPerl...\t"
+# Perl
+echo -n -e "\tPerl...\t\t"
 perl=$(./rand.pl $m $a $c $seed)
 
 if [ $perl -eq $result ]; then
+  echo "PASSED"
+else
+  echo "FAILED"
+fi
+
+# C++
+echo -n -e "\tC++...\t\t"
+g++ -o cppcode.exe rand.cpp
+c=$(./cppcode.exe $m $a $c $seed)
+rm cppcode.exe
+
+if [ $c -eq $result ]; then
   echo "PASSED"
 else
   echo "FAILED"
