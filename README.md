@@ -14,21 +14,23 @@ Lang list:
 - [X] Scala
 - [X] Octave
 - [X] Perl
+- [X] C++
+- [ ] Bash
+- [ ] Dart
+- [ ] Lisp
+- [ ] Julia
 - [ ] Go
 - [ ] Ruby
 - [ ] Swift
 - [ ] PHP
-- [ ] C++
+- [ ] Lua
 - [ ] Objective-C
 - [ ] SQL
 - [ ] C#
 - [ ] J
 - [ ] F#
-- [ ] Ruby
-- [ ] R
 - [ ] Elixir
 - [ ] Coq
-- [ ] Lua
 - [ ] Arduino
 - [ ] Rust
 - [ ] TypeScript
@@ -37,16 +39,13 @@ Lang list:
 - [ ] HTML
 - [ ] CSS
 - [ ] Groovy
-- [ ] Dart
 - [ ] Assembly Language
 - [ ] PowerShell
-- [ ] Julia
 - [ ] Scratch
 - [ ] COBOL
 - [ ] Fortran
 - [ ] ABAP
 - [ ] Scheme
-- [ ] Shell
 - [ ] Prolog
 - [ ] VBScript
 - [ ] Haskell
@@ -54,10 +53,7 @@ Lang list:
 - [ ] Hack
 - [ ] Pascal
 - [ ] Ada
-- [ ] Lua
 - [ ] Visual Basic
-- [ ] Lisp
-- [ ] Bash
 - [ ] Clojure
 - [ ] MQL4
 - [ ] Apex

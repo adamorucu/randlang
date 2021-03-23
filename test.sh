@@ -29,9 +29,9 @@ fi
 
 # C
 echo -n -e "\tC...\t\t"
-gcc -o ccode rand.c
-cc=$(./ccode $m $a $c $seed)
-rm ccode
+gcc -o ccode.exe rand.c
+cc=$(./ccode.exe $m $a $c $seed)
+rm ccode.exe
 
 if [ $cc -eq $result ]; then
   echo "PASSED"
