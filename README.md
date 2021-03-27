@@ -15,7 +15,7 @@ Lang list:
 - [X] Octave
 - [X] Perl
 - [X] C++
-- [ ] Bash
+- [X] Bash
 - [ ] Dart
 - [ ] Lisp
 - [ ] Julia
@@ -36,11 +36,8 @@ Lang list:
 - [ ] TypeScript
 - [ ] CoffeeScript
 - [ ] Kotlin
-- [ ] HTML
-- [ ] CSS
 - [ ] Groovy
 - [ ] Assembly Language
-- [ ] PowerShell
 - [ ] Scratch
 - [ ] COBOL
 - [ ] Fortran

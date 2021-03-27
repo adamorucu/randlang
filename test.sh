@@ -29,9 +29,9 @@ fi
 
 # C
 echo -n -e "\tC...\t\t"
-gcc -o ccode.exe rand.c
-cc=$(./ccode.exe $m $a $c $seed)
-rm ccode.exe
+gcc -o ccode rand.c
+cc=$(./ccode $m $a $c $seed)
+rm ccode
 
 if [ $cc -eq $result ]; then
   echo "PASSED"
@@ -93,11 +93,21 @@ fi
 
 # C++
 echo -n -e "\tC++...\t\t"
-g++ -o cppcode.exe rand.cpp
-c=$(./cppcode.exe $m $a $c $seed)
-rm cppcode.exe
+g++ -o cppcode rand.cpp
+cpp=$(./cppcode $m $a $c $seed)
+rm cppcode
 
-if [ $c -eq $result ]; then
+if [ $cpp -eq $result ]; then
+  echo "PASSED"
+else
+  echo "FAILED"
+fi
+
+# Bash
+echo -n -e "\tBash...\t\t"
+bsh=$(./rand.sh $m $a $c $seed)
+
+if [ $bsh -eq $result ]; then
   echo "PASSED"
 else
   echo "FAILED"
